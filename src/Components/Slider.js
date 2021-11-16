@@ -150,7 +150,7 @@ const Slider = () => {
                         <SliderContainer style={{backgroundColor: `${item.bg}`}} key={index}>
                             {index === current && (
                                 <SliderItem>
-                                <SliderImg src={item.Imgsrc} alt={item.alt}
+                                <SliderImg src={item.Imgsrc } alt={item.alt}
                                 data-aos="fade-right"
                                 data-aos-offset="300"
                                 data-aos-easing="ease-in-sine"/>

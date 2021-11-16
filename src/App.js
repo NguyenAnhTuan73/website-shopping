@@ -6,7 +6,7 @@ import Announcement from './Components/Announcement';
 import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
-import Products from './Components/Product';
+
 
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
         <Route exact path='/' element={<Home/>} />
         <Route path='/login' element={<Login/>} />
         <Route  path='/register' element={<Register/>} />
-        <Route  path='/products' element={<Products/>} />
       </Routes>
       </Router>
       

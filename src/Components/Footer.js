@@ -1,11 +1,10 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import {Facebook, Instagram, Twitter, Pinterest, 
     YouTube, EmailOutlined, PhoneIphoneOutlined, Room  } from '@material-ui/icons';
 import PaymentImg  from '../image/payment.png';
 import {S,M,L,Xl} from '../responsive';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Container = styled.div`
 display: flex;
@@ -102,11 +101,9 @@ ${S({width:'50%'})};
 
 
 const Footer = () => {
-    useEffect(()=>{
-        Aos.init({duration:2000,offset: 100})
-    },[])
+    
     return (
-        <Container data-aos="fade-up"
+        <Container 
         >
             <Left>
                 <Logo>FASHION.</Logo>
