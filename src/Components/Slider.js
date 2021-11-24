@@ -19,7 +19,7 @@ const SliderSection = styled.section`
         
     };
     @media only screen and (min-width:768px) and (max-width:991px){
-        height: 60vh;
+        height: 80vh;
         h1{
             font-size: 3rem !important;
         }
