@@ -11,7 +11,7 @@ import Register from './Pages/Register';
 
 function App() {
   return (
-      <Router>
+      <Router basename={window.location.pathname || ''}>
       <Navbar/>
       <Announcement/>
       <Routes>
