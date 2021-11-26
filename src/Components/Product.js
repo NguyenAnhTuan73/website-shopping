@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {ShoppingCartOutlined, FavoriteBorderOutlined,SearchOutlined } from '@material-ui/icons';
-import {S,M,L,Xl} from '../responsive';
+import {S,M,L} from '../responsive';
 
 const Info = styled.div`
 opacity: 0;
@@ -30,7 +30,7 @@ background-color: #f5fbfd;
 position: relative;
 ${L({minWidth:'225px', height:'250px'})};
 ${M({minWidth:'225px', height:'250px'})};
-${S({minWidth:'225px', height:'250px'})};
+${S({minWidth:'220px', height:'350px'})};
 
 
 

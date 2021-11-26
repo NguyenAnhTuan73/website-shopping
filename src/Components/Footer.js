@@ -20,7 +20,7 @@ display: flex;
 flex-direction: column;
 padding: 20px;
 ${M({padding:'10px'})};
-${S({padding:'10px'})};
+${S({padding:'20px'})};
 
 `;
 const Logo = styled.h1` 
@@ -57,14 +57,14 @@ const Center = styled.div`
 flex: 1;
 padding: 20px;
 ${M({padding:'10px'})};
-${S({padding:'10px'})};
+${S({padding:'20px'})};
 `;
 
 const Right = styled.div`
 flex: 1;
 padding: 20px;
 ${M({padding:'10px'})};
-${S({padding:'10px'})};
+${S({padding:'20px'})};
 `;
 
 const Title = styled.h3`
